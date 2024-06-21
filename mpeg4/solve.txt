@@ -1,0 +1,7 @@
+magic bytes at offset 4
+66 74 79 70 69 73 6F 6D 	ftypisom 	4 	mp4 	ISO Base Media file (MPEG-4)
+
+changed to .mp4 but still didn't work
+saw mpreg4 a few bytes down and compared with sample to change to mp4
+
+then worked

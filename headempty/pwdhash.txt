@@ -1,0 +1,9 @@
+Volatility 3 Framework 2.7.1
+
+User	rid	lmhash	nthash
+
+Administrator	500	aad3b435b51404eeaad3b435b51404ee	31d6cfe0d16ae931b73c59d7e0c089c0
+Guest	501	aad3b435b51404eeaad3b435b51404ee	31d6cfe0d16ae931b73c59d7e0c089c0
+DefaultAccount	503	aad3b435b51404eeaad3b435b51404ee	31d6cfe0d16ae931b73c59d7e0c089c0
+WDAGUtilityAccount	504	aad3b435b51404eeaad3b435b51404ee	9082e3468d0a84e876033173709cb118
+jelly	1001	aad3b435b51404eeaad3b435b51404ee	aa05ab5319d59779b937bdbf9797d895

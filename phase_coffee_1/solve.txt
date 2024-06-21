@@ -1,0 +1,1 @@
+flag = "jellyCTF{sakana_your_C04433_shop_broke}"

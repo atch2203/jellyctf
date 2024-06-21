@@ -1,0 +1,28 @@
+saw hint, checked cracker and saw md5 was hash
+put "jelly" into md5 and got 328356824c8487cf314aa350d11ae145 
+
+https://aidoru.jellyc.tf/covers/328356824c8487cf314aa350d11ae145 gives bad data, so go to
+https://aidoru.jellyc.tf/static/secret_data/328356824c8487cf314aa350d11ae145.json
+and you get {
+    "name": "Jelly Hoshiumi",
+    "covers": [
+        {
+            "name": "Idol",
+            "link": "Z-VO-lgX0ps",
+            "start": "7294",
+            "autoplay": 1
+        },
+        {
+            "name": "flag",
+            "link": "jellyCTF{u_r_the_p3rfect_ultimate_IDOR}"
+        },
+        {
+            "name": "Luminary",
+            "link": "1x6oPy3Hwcw"
+        },
+        {
+            "name": "Te wo Gyu Shite Ne",
+            "link": "_Ju15xlrvHw"
+        }
+    ]
+}

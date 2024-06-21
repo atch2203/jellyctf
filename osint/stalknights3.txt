@@ -1,0 +1,14 @@
+plane code JA784A
+
+https://www.flightradar24.com/data/aircraft/ja784a#35bf8a61
+https://www.flightera.net/en/planes/JA784A
+tweeted may 9 2024 10am says "last friday" = may 3rd
+
+https://www.flightera.net/en/planes/JA784A/2024-05-14%2006_00
+https://www.flightera.net/en/flight_details/All+Nippon+Airways/NH160/RJTT/2024-05-03
+
+
+
+
+https://www.flightera.net/en/airport/New+York/KJFK
+jellyCTF{new_york,united_states_of_america}

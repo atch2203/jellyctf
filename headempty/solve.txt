@@ -1,0 +1,72 @@
+https://dfir.science/2022/02/Introduction-to-Memory-Forensics-with-Volatility-3
+
+jelly is user (from handle dump)
+
+hash dump gives us
+───────┬────────────────────────────────────────────────────────────────────────────────────────────────────────────────       │ File: pwdhash.txt
+───────┼────────────────────────────────────────────────────────────────────────────────────────────────────────────────   1   │ Volatility 3 Framework 2.7.1
+   2   │
+   3   │ User    rid lmhash  nthash
+   4   │
+   5   │ Administrator   500 aad3b435b51404eeaad3b435b51404ee    31d6cfe0d16ae931b73c59d7e0c089c0
+   6   │ Guest   501 aad3b435b51404eeaad3b435b51404ee    31d6cfe0d16ae931b73c59d7e0c089c0
+   7   │ DefaultAccount  503 aad3b435b51404eeaad3b435b51404ee    31d6cfe0d16ae931b73c59d7e0c089c0
+   8   │ WDAGUtilityAccount  504 aad3b435b51404eeaad3b435b51404ee    9082e3468d0a84e876033173709cb118
+   9   │ jelly   1001    aad3b435b51404eeaad3b435b51404ee    aa05ab5319d59779b937bdbf9797d895
+───────┴────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+apply hashcat -m 1000 (ntlm) -a 0 gets us jellynerd2
+
+
+headempty2: mspaint was open in the processes, let's check it out
+pid 4700
+ppid 1300 explorer.exe
+
+searching for png gives another process
+3412	StartMenuExper	0xa3071073a870	0x9f8	File	0x12019f	\Device\HarddiskVolume3\Users\jelly\AppData\Local\Packages\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\TempState\TileCache_100_3_PNGEncoded_Data.bin
+
+
+filedump it and look in hex edit + binwalk
+
+➜  fileDump pwn py:3.12.4 main ✗ ls
+ file.0xa3071073a870.0xa307102eec70.SharedCacheMap.TileCache_100_3_PNGEncoded_Data.bin.vacb   file.0xa3071073a870.0xa3071046bea0.DataSectionObject.TileCache_100_3_PNGEncoded_Data.bin.dat
+➜  fileDump pwn py:3.12.4 main ✗ binwalk file.0xa3071073a870.0xa307102eec70.SharedCacheMap.TileCache_100_3_PNGEncoded_Data.bin.vacb
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+4096          0x1000          PNG image, 100 x 100, 8-bit/color RGBA, non-interlaced
+4187          0x105B          Zlib compressed data, compressed
+5120          0x1400          PNG image, 100 x 100, 8-bit/color RGBA, non-interlaced
+5211          0x145B          Zlib compressed data, compressed
+5632          0x1600          PNG image, 100 x 100, 8-bit/color RGBA, non-interlaced
+5723          0x165B          Zlib compressed data, compressed
+6144          0x1800          PNG image, 34 x 34, 8-bit/color RGBA, non-interlaced
+7168          0x1C00          PNG image, 34 x 34, 8-bit/color RGBA, non-interlaced
+8192          0x2000          PNG image, 100 x 100, 8-bit/color RGBA, non-interlaced
+8283          0x205B          Zlib compressed data, compressed
+10240         0x2800          PNG image, 100 x 100, 8-bit/color RGBA, non-interlaced
+10331         0x285B          Zlib compressed data, compressed
+10752         0x2A00          PNG image, 100 x 100, 8-bit/color RGBA, non-interlaced
+
+extracted them and they ended up being windows icon file (solitare, mail, etc)
+this is so sad
+
+
+used hints
+p vol.py -f ../memory.dmp windows.memmap --dump --pid 4700 > ../memdump.txt
+dump was in pid.4700.dmp
+
+did a massive binwalk on it
+
+reading this made me think of bitmap https://www.sevenforums.com/general-discussion/182229-clipboard-ms-paint-temporary-files-location.html
+206700544     0xC520000       PC bitmap, Windows 3.x format,, 129 x 115 x 24
+
+got nothing
+
+https://github.com/h4x0r/ctf-writeups/blob/master/Google-CTF-2016/For1/README.md literally the same challenge
+tried again, just cranked width=1000 and height=6000 and scrolled
+saw something in isthisit.png
+cleaned it up in LFGGGG.png
+
+flag: jellyCTF{pa1nt_pr1nc355}

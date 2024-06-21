@@ -1,0 +1,11 @@
+to hex in hex.txt
+
+b,c,n,p are the only ones with -1
+u,v,i,j as well
+
+all b has -1
+
+
+maybe use awascii?
+convert to binary then awascii?
+

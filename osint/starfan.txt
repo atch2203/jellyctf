@@ -1,0 +1,16 @@
+go to wayback https://web.archive.org/web/20240325165547/https://twitter.com/j3llyfan7
+
+
+https://twirpz.wordpress.com/2015/06/16/how-to-find-twitter-users-previous-usernames/
+
+check banner for id (had to cross check elon musk banner id = https://tweeterid.com/)
+id is 1772301250572263429
+
+https://x.com/intent/user?screen_name=bmFmeWxsM2p3ZW4
+
+dGhpc193YXNfbm90X215X2ludGVudGlvbn0=
+eUNURns=
+amVsbA==
+
+
+jellyCTF{this_was_not_my_intention}

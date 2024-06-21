@@ -1,0 +1,10 @@
+VGhhdCB3YXMganVzdCBhIHdhcm0gdXAuIEhlcmUgaXMgdGhlIGFjdHVhbCBmbGFnLCB0aG91Z2ggeW91IG1heSBuZWVkIGEgYmFzZSB0aGF0J3MgJ0EnIGJpdCBsYXJnZXI6CumpquqNrOehueetlPCTibvmmajpkbPmqanqhZ/wk4W16ZG06ZGh5qWi5pmz6ZGj8JSVofCUlaHwlJWh8JOBofCTja3woI2w
+
+b64
+That was just a warm up. Here is the actual flag, though you may need a base that's 'A' bit larger:
+é©ªê¬ç¡¹ç­ð»æ¨é³æ©©êðµé´é¡æ¥¢æ³é£ð¡ð¡ð¡ð¡ð­ð °
+
+hex
+e9a9aaea8dace7a1b9e7ad94f09389bbe699a8e991b3e6a9a9ea859ff09385b5e991b4e991a1e6a5a2e699b3e991a3f09495a1f09495a1f09495a1f09381a1f0938dadf0a08db0
+
+base 2^16

@@ -1,0 +1,6 @@
+when pipes is > the goal, we get the flag
+Also, there is an endpoint /increment where we can specify the number, so just make it big
+
+input POST /increment?increment_amount=23400000000000 HTTP/2
+
+flag jellyCTF{keep_on_piping_jelly}

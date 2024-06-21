@@ -1,0 +1,5 @@
+this time overflow is on
+int total_cost = 35 * quantity;
+so we put quantity at ~2^31 / 35  or 61356699
+
+flag = jellyCTF{dud3_y0u_m1ss3d_4n0th3r_bug}

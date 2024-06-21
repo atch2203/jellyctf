@@ -1,0 +1,17 @@
+<+0>:     endbr64
+<+4>:     push   rbp
+<+5>:     mov    rbp,rsp
+<+8>:     mov    DWORD PTR [rbp-4],wawawa 111
+<+15>:    mov    DWORD PTR [rbp-8],wawaawa 110
+<+22>:    mov    eax,DWORD PTR [rbp-4]
+<+25>:    add    eax,DWORD PTR [rbp-8]
+<+28>:    shl    eax,waawaawa 100
+<+31>:    pop    rbp
+<+32>:    ret
+
+
+111+110=1101
+11010000
+
+>>> int("11010000",2)
+208

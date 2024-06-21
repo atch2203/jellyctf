@@ -1,0 +1,452 @@
+found github https://github.com/starknight1337
+clone https://github.com/starknight1337/rustlings_practice
+run  curl https://api.github.com/repos/starknight1337/rustlings_practice/events
+name: Luke Ritterman
+
+
+[
+  {
+    "id": "39207106447",
+    "type": "ForkEvent",
+    "actor": {
+      "id": 69828084,
+      "login": "rl6918",
+      "display_login": "rl6918",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rl6918",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69828084?"
+    },
+    "repo": {
+      "id": 809868179,
+      "name": "starknight1337/rustlings_practice",
+      "url": "https://api.github.com/repos/starknight1337/rustlings_practice"
+    },
+    "payload": {
+      "forkee": {
+        "id": 813818999,
+        "node_id": "R_kgDOMIHkdw",
+        "name": "rustlings_practice",
+        "full_name": "rl6918/rustlings_practice",
+        "private": false,
+        "owner": {
+          "login": "rl6918",
+          "id": 69828084,
+          "node_id": "MDQ6VXNlcjY5ODI4MDg0",
+          "avatar_url": "https://avatars.githubusercontent.com/u/69828084?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/rl6918",
+          "html_url": "https://github.com/rl6918",
+          "followers_url": "https://api.github.com/users/rl6918/followers",
+          "following_url": "https://api.github.com/users/rl6918/following{/other_user}",
+          "gists_url": "https://api.github.com/users/rl6918/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/rl6918/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/rl6918/subscriptions",
+          "organizations_url": "https://api.github.com/users/rl6918/orgs",
+          "repos_url": "https://api.github.com/users/rl6918/repos",
+          "events_url": "https://api.github.com/users/rl6918/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/rl6918/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/rl6918/rustlings_practice",
+        "description": ":crab: Small exercises to get you used to reading and writing Rust code!",
+        "fork": true,
+        "url": "https://api.github.com/repos/rl6918/rustlings_practice",
+        "forks_url": "https://api.github.com/repos/rl6918/rustlings_practice/forks",
+        "keys_url": "https://api.github.com/repos/rl6918/rustlings_practice/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/rl6918/rustlings_practice/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/rl6918/rustlings_practice/teams",
+        "hooks_url": "https://api.github.com/repos/rl6918/rustlings_practice/hooks",
+        "issue_events_url": "https://api.github.com/repos/rl6918/rustlings_practice/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/rl6918/rustlings_practice/events",
+        "assignees_url": "https://api.github.com/repos/rl6918/rustlings_practice/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/rl6918/rustlings_practice/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/rl6918/rustlings_practice/tags",
+        "blobs_url": "https://api.github.com/repos/rl6918/rustlings_practice/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/rl6918/rustlings_practice/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/rl6918/rustlings_practice/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/rl6918/rustlings_practice/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/rl6918/rustlings_practice/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/rl6918/rustlings_practice/languages",
+        "stargazers_url": "https://api.github.com/repos/rl6918/rustlings_practice/stargazers",
+        "contributors_url": "https://api.github.com/repos/rl6918/rustlings_practice/contributors",
+        "subscribers_url": "https://api.github.com/repos/rl6918/rustlings_practice/subscribers",
+        "subscription_url": "https://api.github.com/repos/rl6918/rustlings_practice/subscription",
+        "commits_url": "https://api.github.com/repos/rl6918/rustlings_practice/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/rl6918/rustlings_practice/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/rl6918/rustlings_practice/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/rl6918/rustlings_practice/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/rl6918/rustlings_practice/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/rl6918/rustlings_practice/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/rl6918/rustlings_practice/merges",
+        "archive_url": "https://api.github.com/repos/rl6918/rustlings_practice/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/rl6918/rustlings_practice/downloads",
+        "issues_url": "https://api.github.com/repos/rl6918/rustlings_practice/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/rl6918/rustlings_practice/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/rl6918/rustlings_practice/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/rl6918/rustlings_practice/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/rl6918/rustlings_practice/labels{/name}",
+        "releases_url": "https://api.github.com/repos/rl6918/rustlings_practice/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/rl6918/rustlings_practice/deployments",
+        "created_at": "2024-06-11T20:00:44Z",
+        "updated_at": "2024-06-11T20:00:44Z",
+        "pushed_at": "2024-06-08T03:11:51Z",
+        "git_url": "git://github.com/rl6918/rustlings_practice.git",
+        "ssh_url": "git@github.com:rl6918/rustlings_practice.git",
+        "clone_url": "https://github.com/rl6918/rustlings_practice.git",
+        "svn_url": "https://github.com/rl6918/rustlings_practice",
+        "homepage": "https://rustlings.cool",
+        "size": 3011,
+        "stargazers_count": 0,
+        "watchers_count": 0,
+        "language": null,
+        "has_issues": false,
+        "has_projects": true,
+        "has_downloads": true,
+        "has_wiki": false,
+        "has_pages": false,
+        "has_discussions": false,
+        "forks_count": 0,
+        "mirror_url": null,
+        "archived": false,
+        "disabled": false,
+        "open_issues_count": 0,
+        "license": null,
+        "allow_forking": true,
+        "is_template": false,
+        "web_commit_signoff_required": false,
+        "topics": [
+
+        ],
+        "visibility": "public",
+        "forks": 0,
+        "open_issues": 0,
+        "watchers": 0,
+        "default_branch": "main",
+        "public": true
+      }
+    },
+    "public": true,
+    "created_at": "2024-06-11T20:00:45Z"
+  },
+  {
+    "id": "39113047369",
+    "type": "PushEvent",
+    "actor": {
+      "id": 169378976,
+      "login": "starknight1337",
+      "display_login": "starknight1337",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/starknight1337",
+      "avatar_url": "https://avatars.githubusercontent.com/u/169378976?"
+    },
+    "repo": {
+      "id": 809868179,
+      "name": "starknight1337/rustlings_practice",
+      "url": "https://api.github.com/repos/starknight1337/rustlings_practice"
+    },
+    "payload": {
+      "repository_id": 809868179,
+      "push_id": 18785977985,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "c804dba6df9f81e5424744dd9c8d90473308e6c5",
+      "before": "041b1e7cec55321610808691d7340bc3e9567948",
+      "commits": [
+        {
+          "sha": "c804dba6df9f81e5424744dd9c8d90473308e6c5",
+          "author": {
+            "email": "the1337starknight@gmail.com",
+            "name": "starknight1337"
+          },
+          "message": "04 primitive types",
+          "distinct": true,
+          "url": "https://api.github.com/repos/starknight1337/rustlings_practice/commits/c804dba6df9f81e5424744dd9c8d90473308e6c5"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2024-06-08T03:11:52Z"
+  },
+  {
+    "id": "38985265231",
+    "type": "PushEvent",
+    "actor": {
+      "id": 169378976,
+      "login": "starknight1337",
+      "display_login": "starknight1337",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/starknight1337",
+      "avatar_url": "https://avatars.githubusercontent.com/u/169378976?"
+    },
+    "repo": {
+      "id": 809868179,
+      "name": "starknight1337/rustlings_practice",
+      "url": "https://api.github.com/repos/starknight1337/rustlings_practice"
+    },
+    "payload": {
+      "repository_id": 809868179,
+      "push_id": 18724588649,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "041b1e7cec55321610808691d7340bc3e9567948",
+      "before": "607482064738673949d268bb3487f42475a54bc5",
+      "commits": [
+        {
+          "sha": "041b1e7cec55321610808691d7340bc3e9567948",
+          "author": {
+            "email": "the1337starknight@@gmail.com",
+            "name": "Starknight1337"
+          },
+          "message": "04 primitive types",
+          "distinct": true,
+          "url": "https://api.github.com/repos/starknight1337/rustlings_practice/commits/041b1e7cec55321610808691d7340bc3e9567948"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2024-06-04T13:36:02Z"
+  },
+  {
+    "id": "38984701978",
+    "type": "PushEvent",
+    "actor": {
+      "id": 169378976,
+      "login": "starknight1337",
+      "display_login": "starknight1337",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/starknight1337",
+      "avatar_url": "https://avatars.githubusercontent.com/u/169378976?"
+    },
+    "repo": {
+      "id": 809868179,
+      "name": "starknight1337/rustlings_practice",
+      "url": "https://api.github.com/repos/starknight1337/rustlings_practice"
+    },
+    "payload": {
+      "repository_id": 809868179,
+      "push_id": 18724329711,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "607482064738673949d268bb3487f42475a54bc5",
+      "before": "8edc11d55078ee205978513d884fe61e59beea83",
+      "commits": [
+        {
+          "sha": "607482064738673949d268bb3487f42475a54bc5",
+          "author": {
+            "email": "the1337starknight@@gmail.com",
+            "name": "Starknight1337"
+          },
+          "message": "Chapter 3 if",
+          "distinct": true,
+          "url": "https://api.github.com/repos/starknight1337/rustlings_practice/commits/607482064738673949d268bb3487f42475a54bc5"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2024-06-04T13:21:53Z"
+  },
+  {
+    "id": "38984151381",
+    "type": "PushEvent",
+    "actor": {
+      "id": 169378976,
+      "login": "starknight1337",
+      "display_login": "starknight1337",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/starknight1337",
+      "avatar_url": "https://avatars.githubusercontent.com/u/169378976?"
+    },
+    "repo": {
+      "id": 809868179,
+      "name": "starknight1337/rustlings_practice",
+      "url": "https://api.github.com/repos/starknight1337/rustlings_practice"
+    },
+    "payload": {
+      "repository_id": 809868179,
+      "push_id": 18724071420,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "8edc11d55078ee205978513d884fe61e59beea83",
+      "before": "8176ceea465985920ae5f4e1d57468cb3f93e85d",
+      "commits": [
+        {
+          "sha": "8edc11d55078ee205978513d884fe61e59beea83",
+          "author": {
+            "email": "the1337starknight@@gmail.com",
+            "name": "Starknight1337"
+          },
+          "message": "Finished chapter 02 yay",
+          "distinct": true,
+          "url": "https://api.github.com/repos/starknight1337/rustlings_practice/commits/8edc11d55078ee205978513d884fe61e59beea83"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2024-06-04T13:07:52Z"
+  },
+  {
+    "id": "38982832323",
+    "type": "PushEvent",
+    "actor": {
+      "id": 169378976,
+      "login": "starknight1337",
+      "display_login": "starknight1337",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/starknight1337",
+      "avatar_url": "https://avatars.githubusercontent.com/u/169378976?"
+    },
+    "repo": {
+      "id": 809868179,
+      "name": "starknight1337/rustlings_practice",
+      "url": "https://api.github.com/repos/starknight1337/rustlings_practice"
+    },
+    "payload": {
+      "repository_id": 809868179,
+      "push_id": 18723448046,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "8176ceea465985920ae5f4e1d57468cb3f93e85d",
+      "before": "b8627fe1523025fe46eb8728ff74d6ed426367e9",
+      "commits": [
+        {
+          "sha": "8176ceea465985920ae5f4e1d57468cb3f93e85d",
+          "author": {
+            "email": "the1337starknight@@gmail.com",
+            "name": "Starknight1337"
+          },
+          "message": "Fresh start - clean up broken git username and email settings",
+          "distinct": true,
+          "url": "https://api.github.com/repos/starknight1337/rustlings_practice/commits/8176ceea465985920ae5f4e1d57468cb3f93e85d"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2024-06-04T12:33:50Z"
+  },
+  {
+    "id": "38982205966",
+    "type": "PushEvent",
+    "actor": {
+      "id": 169378976,
+      "login": "starknight1337",
+      "display_login": "starknight1337",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/starknight1337",
+      "avatar_url": "https://avatars.githubusercontent.com/u/169378976?"
+    },
+    "repo": {
+      "id": 809868179,
+      "name": "starknight1337/rustlings_practice",
+      "url": "https://api.github.com/repos/starknight1337/rustlings_practice"
+    },
+    "payload": {
+      "repository_id": 809868179,
+      "push_id": 18723142867,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "b8627fe1523025fe46eb8728ff74d6ed426367e9",
+      "before": "4b0d447f7c5a4c42e2e4151dc67b7fc0291caeb0",
+      "commits": [
+        {
+          "sha": "b8627fe1523025fe46eb8728ff74d6ed426367e9",
+          "author": {
+            "email": "the1337starknight@@gmail.com",
+            "name": "Starknight1337"
+          },
+          "message": "01_variables",
+          "distinct": true,
+          "url": "https://api.github.com/repos/starknight1337/rustlings_practice/commits/b8627fe1523025fe46eb8728ff74d6ed426367e9"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2024-06-04T12:16:47Z"
+  },
+  {
+    "id": "38952928498",
+    "type": "PushEvent",
+    "actor": {
+      "id": 169378976,
+      "login": "starknight1337",
+      "display_login": "starknight1337",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/starknight1337",
+      "avatar_url": "https://avatars.githubusercontent.com/u/169378976?"
+    },
+    "repo": {
+      "id": 809868179,
+      "name": "starknight1337/rustlings_practice",
+      "url": "https://api.github.com/repos/starknight1337/rustlings_practice"
+    },
+    "payload": {
+      "repository_id": 809868179,
+      "push_id": 18709219218,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "4b0d447f7c5a4c42e2e4151dc67b7fc0291caeb0",
+      "before": "2d52f1b3d6b7d63735a9e932fa049eb835753df8",
+      "commits": [
+        {
+          "sha": "4b0d447f7c5a4c42e2e4151dc67b7fc0291caeb0",
+          "author": {
+            "email": "the1337starknight@@gmail.com",
+            "name": "Luke Ritterman"
+          },
+          "message": "Fix git info",
+          "distinct": true,
+          "url": "https://api.github.com/repos/starknight1337/rustlings_practice/commits/4b0d447f7c5a4c42e2e4151dc67b7fc0291caeb0"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2024-06-03T16:22:46Z"
+  },
+  {
+    "id": "38952840333",
+    "type": "PushEvent",
+    "actor": {
+      "id": 169378976,
+      "login": "starknight1337",
+      "display_login": "starknight1337",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/starknight1337",
+      "avatar_url": "https://avatars.githubusercontent.com/u/169378976?"
+    },
+    "repo": {
+      "id": 809868179,
+      "name": "starknight1337/rustlings_practice",
+      "url": "https://api.github.com/repos/starknight1337/rustlings_practice"
+    },
+    "payload": {
+      "repository_id": 809868179,
+      "push_id": 18709178734,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "2d52f1b3d6b7d63735a9e932fa049eb835753df8",
+      "before": "d140d49b6135119a20be4689cf8bb6b13fdaa69d",
+      "commits": [
+        {
+          "sha": "2d52f1b3d6b7d63735a9e932fa049eb835753df8",
+          "author": {
+            "email": "lritterman03@gmail.com",
+            "name": "Luke Ritterman"
+          },
+          "message": "Finally starting to learn Rust",
+          "distinct": true,
+          "url": "https://api.github.com/repos/starknight1337/rustlings_practice/commits/2d52f1b3d6b7d63735a9e932fa049eb835753df8"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2024-06-03T16:20:04Z"
+  }
+]

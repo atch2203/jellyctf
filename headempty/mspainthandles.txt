@@ -1,0 +1,343 @@
+Volatility 3 Framework 2.7.1
+
+PID	Process	Offset	HandleValue	Type	GrantedAccess	Name
+
+4700	mspaint.exe	0xa30710bb93e0	0x4	Event	0x1f0003	
+4700	mspaint.exe	0xa30710bb82e0	0x8	Event	0x1f0003	
+4700	mspaint.exe	0xa3071097b690	0xc	WaitCompletionPacket	0x1	
+4700	mspaint.exe	0xa3070fd7d2c0	0x10	IoCompletion	0x1f0003	
+4700	mspaint.exe	0xa307104d2970	0x14	TpWorkerFactory	0xf00ff	
+4700	mspaint.exe	0xa30710779a30	0x18	IRTimer	0x100002	
+4700	mspaint.exe	0xa3071097e0d0	0x1c	WaitCompletionPacket	0x1	
+4700	mspaint.exe	0xa3071077aa20	0x20	IRTimer	0x100002	
+4700	mspaint.exe	0xa30710980b10	0x24	WaitCompletionPacket	0x1	
+4700	mspaint.exe	0xa3070fd7dd40	0x2c	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd7de20	0x30	EtwRegistration	0x804	
+4700	mspaint.exe	0xc60793e2cce0	0x34	Directory	0xf	BaseNamedObjects
+4700	mspaint.exe	0xa3070fd80200	0x38	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070ff8ab90	0x3c	File	0x100020	\Device\HarddiskVolume3\Windows\System32
+4700	mspaint.exe	0xc60795225b00	0x40	Directory	0x3	KnownDlls
+4700	mspaint.exe	0xa30710bb94e0	0x44	Event	0x1f0003	
+4700	mspaint.exe	0xa30710bb9560	0x48	Event	0x1f0003	
+4700	mspaint.exe	0xa30710a05260	0x4c	Mutant	0x1f0001	SM0:4700:304:WilStaging_02
+4700	mspaint.exe	0xa307109d2ce0	0x50	ALPC Port	0x1f0001	
+4700	mspaint.exe	0xa30710c1ef20	0x54	Semaphore	0x1f0003	SM0:4700:304:WilStaging_02_p0
+4700	mspaint.exe	0xa30710c1ea20	0x58	Semaphore	0x1f0003	SM0:4700:304:WilStaging_02_p0h
+4700	mspaint.exe	0xa3070fd7fbe0	0x5c	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd7eb40	0x60	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd7e980	0x64	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd7fe80	0x68	EtwRegistration	0x804	
+4700	mspaint.exe	0xc60798e29440	0x6c	Key	0x20019	MACHINE\SYSTEM\CONTROLSET001\CONTROL\NLS\SORTING\VERSIONS
+4700	mspaint.exe	0xa3070fd7ea60	0x70	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd802e0	0x74	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd803c0	0x78	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd7eec0	0x7c	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd83ca0	0x80	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd82180	0x84	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd827a0	0x88	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd82880	0x8c	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd82960	0x90	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd83ae0	0x94	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd82260	0x98	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd82ea0	0x9c	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd82340	0xa0	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd82420	0xa4	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd82a40	0xa8	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd82500	0xac	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd82b20	0xb0	EtwRegistration	0x804	
+4700	mspaint.exe	0xc60798e2db70	0xb4	Key	0x9	MACHINE\SOFTWARE\MICROSOFT\WINDOWS NT\CURRENTVERSION\IMAGE FILE EXECUTION OPTIONS
+4700	mspaint.exe	0xa3070e885760	0xc0	WindowStation	0xf037f	WinSta0
+4700	mspaint.exe	0xa3070f22dc70	0xc4	Desktop	0xf01ff	Default
+4700	mspaint.exe	0xa3070e885760	0xc8	WindowStation	0xf037f	WinSta0
+4700	mspaint.exe	0xa30710bb9b60	0xcc	Event	0x1f0003	
+4700	mspaint.exe	0xa30710984180	0xd0	WaitCompletionPacket	0x1	
+4700	mspaint.exe	0xa3070fc78d80	0xd4	File	0x100001	\Device\HarddiskVolume3\Windows\System32\en-GB\mspaint.exe.mui
+4700	mspaint.exe	0xa3070fd83140	0xd8	EtwRegistration	0x804	
+4700	mspaint.exe	0xc60799168ac0	0xdc	Key	0x20019	MACHINE
+4700	mspaint.exe	0xc60799169450	0xe0	Key	0x20019	MACHINE
+4700	mspaint.exe	0xc60799167f10	0xe4	Key	0x20019	MACHINE\SOFTWARE\MICROSOFT\OLE
+4700	mspaint.exe	0xa30710bb97e0	0xe8	Event	0x1f0003	
+4700	mspaint.exe	0xc6079916a220	0xec	Key	0x20019	USER\S-1-5-21-4182252777-1766901480-2167484189-1001_CLASSES\LOCAL SETTINGS\SOFTWARE\MICROSOFT
+4700	mspaint.exe	0xc60799169560	0xf0	Key	0x20019	USER\S-1-5-21-4182252777-1766901480-2167484189-1001_CLASSES\LOCAL SETTINGS
+4700	mspaint.exe	0xa30710bb9fe0	0xf4	Event	0x1f0003	
+4700	mspaint.exe	0xa3070fd825e0	0xf8	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd835a0	0xfc	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd82ce0	0x100	EtwRegistration	0x804	
+4700	mspaint.exe	0xa30710bba960	0x104	Event	0x1f0003	
+4700	mspaint.exe	0xa30710bbaa60	0x108	Event	0x1f0003	
+4700	mspaint.exe	0xa30710bba9e0	0x10c	Event	0x1f0003	
+4700	mspaint.exe	0xa30710bba8e0	0x110	Event	0x1f0003	
+4700	mspaint.exe	0xa30710bba2e0	0x114	Event	0x1f0003	
+4700	mspaint.exe	0xa30710bba260	0x118	Event	0x1f0003	
+4700	mspaint.exe	0xa3070fd83680	0x11c	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd82dc0	0x120	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd82f80	0x124	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd83220	0x128	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd83760	0x12c	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd83840	0x130	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd833e0	0x134	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd834c0	0x138	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd83920	0x13c	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd83a00	0x140	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd864e0	0x144	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd866a0	0x148	EtwRegistration	0x804	
+4700	mspaint.exe	0xa30710bb9d60	0x14c	Semaphore	0x100003	
+4700	mspaint.exe	0xa30710bba460	0x150	Semaphore	0x100003	
+4700	mspaint.exe	0xa3070fd84640	0x154	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd84800	0x158	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd85280	0x15c	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd84d40	0x160	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd848e0	0x164	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd856e0	0x168	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd83d80	0x16c	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd84100	0x170	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd843a0	0x174	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd849c0	0x178	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd84480	0x17c	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd84b80	0x180	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd84c60	0x184	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd84e20	0x188	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd850c0	0x18c	EtwRegistration	0x804	
+4700	mspaint.exe	0xa30710bba4e0	0x190	Event	0x1f0003	
+4700	mspaint.exe	0xa30710bba660	0x194	Event	0x1f0003	
+4700	mspaint.exe	0xc60799169de0	0x198	Key	0x20019	MACHINE\SYSTEM\CONTROLSET001\CONTROL\NETWORKPROVIDER\HWORDER
+4700	mspaint.exe	0xc6079916add0	0x19c	Key	0x20019	MACHINE\SYSTEM\CONTROLSET001\CONTROL\NETWORKPROVIDER\PROVIDERORDER
+4700	mspaint.exe	0xa30710bba560	0x1a0	Semaphore	0x100003	
+4700	mspaint.exe	0xa30710bba760	0x1a4	Semaphore	0x100003	
+4700	mspaint.exe	0xa3070fd85b40	0x1a8	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd85980	0x1ac	EtwRegistration	0x804	
+4700	mspaint.exe	0xa30710bba5e0	0x1b0	Semaphore	0x100003	
+4700	mspaint.exe	0xa30710bbace0	0x1b4	Semaphore	0x100003	
+4700	mspaint.exe	0xa3070fd87140	0x1b8	IoCompletion	0x1f0003	
+4700	mspaint.exe	0xa307104d1970	0x1bc	TpWorkerFactory	0xf00ff	
+4700	mspaint.exe	0xa3071077ad50	0x1c0	IRTimer	0x100002	
+4700	mspaint.exe	0xa307109843f0	0x1c4	WaitCompletionPacket	0x1	
+4700	mspaint.exe	0xa3071077a090	0x1c8	IRTimer	0x100002	
+4700	mspaint.exe	0xa307109863a0	0x1cc	WaitCompletionPacket	0x1	
+4700	mspaint.exe	0xa3070fdb3420	0x1d0	File	0x100020	\Device\HarddiskVolume3\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e
+4700	mspaint.exe	0xc60799169890	0x1d4	Key	0x1	MACHINE\SYSTEM\CONTROLSET001\CONTROL\SESSION MANAGER
+4700	mspaint.exe	0xa3070fdb2930	0x1d8	File	0x100001	\Device\HarddiskVolume3\Windows\System32\en-GB\MFC42u.dll.mui
+4700	mspaint.exe	0xa3070fd85a60	0x1dc	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd873c0	0x1e0	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd86320	0x1e4	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd86e80	0x1e8	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd874a0	0x1ec	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd85d00	0x1f0	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd86240	0x1f4	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd85c20	0x1f8	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd86940	0x1fc	EtwRegistration	0x804	
+4700	mspaint.exe	0xa30710bb9760	0x200	Event	0x1f0003	
+4700	mspaint.exe	0xa3070fd85de0	0x204	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd86400	0x208	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070f336980	0x20c	File	0x100020	\Device\HarddiskVolume3\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.2006_none_919e9136cc8d4791
+4700	mspaint.exe	0xa3070fd86780	0x210	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fd88a80	0x214	EtwRegistration	0x804	
+4700	mspaint.exe	0xa30710c49a80	0x218	ALPC Port	0x1f0001	
+4700	mspaint.exe	0xa3070fd88c40	0x21c	EtwRegistration	0x804	
+4700	mspaint.exe	0xa30710bb9ae0	0x220	Event	0x1f0003	
+4700	mspaint.exe	0xa30710a2b080	0x224	Thread	0x1fffff	Tid 4716 Pid 4700
+4700	mspaint.exe	0xa30710402ce0	0x228	EtwRegistration	0x804	
+4700	mspaint.exe	0xa30710407682	0x230	Event	0x1f0003	
+4700	mspaint.exe	0xa30710407f20	0x234	EtwRegistration	0x804	
+4700	mspaint.exe	0xa30710407d60	0x238	EtwRegistration	0x804	
+4700	mspaint.exe	0xa30710408380	0x23c	EtwRegistration	0x804	
+4700	mspaint.exe	0xa30710408540	0x240	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fdb35b0	0x244	File	0x100001	\Device\CNG
+4700	mspaint.exe	0xa30710408e00	0x248	EtwRegistration	0x804	
+4700	mspaint.exe	0xc607991699a0	0x24c	Key	0x20019	MACHINE\SYSTEM\CONTROLSET001\CONTROL\NLS\CODEPAGE
+4700	mspaint.exe	0xa30710407c80	0x250	EtwRegistration	0x804	
+4700	mspaint.exe	0xa307104089a0	0x254	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071040a920	0x258	EtwRegistration	0x804	
+4700	mspaint.exe	0xc607973ed930	0x25c	Section	0x4	Theme3772622635
+4700	mspaint.exe	0xc607973ede70	0x260	Section	0x4	Theme2239801353
+4700	mspaint.exe	0xa30710bba6e0	0x264	Event	0x1f0003	
+4700	mspaint.exe	0xa30710bba7e0	0x268	Event	0x1f0003	
+4700	mspaint.exe	0xa30710bba860	0x26c	Event	0x1f0003	
+4700	mspaint.exe	0xc60799169ef0	0x270	Key	0xf003f	USER\S-1-5-21-4182252777-1766901480-2167484189-1001
+4700	mspaint.exe	0xc60797312bf0	0x274	Section	0x4	__ComCatalogCache__
+4700	mspaint.exe	0xc60798e2da60	0x278	Key	0xf003f	USER\S-1-5-21-4182252777-1766901480-2167484189-1001_CLASSES
+4700	mspaint.exe	0xa3071040e120	0x27c	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070b6787a0	0x280	Event	0x100001	MaximumCommitCondition
+4700	mspaint.exe	0xc60797312bf0	0x284	Section	0x4	__ComCatalogCache__
+4700	mspaint.exe	0xa30710bbab60	0x288	Event	0x1f0003	
+4700	mspaint.exe	0xa30710bbaae0	0x28c	Event	0x1f0003	
+4700	mspaint.exe	0xc607979c9c10	0x290	Key	0x10	USER\S-1-5-21-4182252777-1766901480-2167484189-1001_CLASSES
+4700	mspaint.exe	0xc6079862e720	0x294	Key	0xf003f	USER\S-1-5-21-4182252777-1766901480-2167484189-1001_CLASSES
+4700	mspaint.exe	0xa3071040cc20	0x298	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fa96550	0x29c	File	0x100020	\Device\HarddiskVolume3\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.2006_none_919e9136cc8d4791
+4700	mspaint.exe	0xa30710c210c0	0x2a0	Mutant	0x1f0001	
+4700	mspaint.exe	0xa30710bbac64	0x2a4	VRegConfigurationContext	0x1f0003	
+4700	mspaint.exe	0xa30710bbad60	0x2b0	Event	0x1f0003	
+4700	mspaint.exe	0xa3071040c980	0x2b4	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071040df60	0x2b8	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071040cec0	0x2bc	EtwRegistration	0x804	
+4700	mspaint.exe	0xa30710bbb0e0	0x2c0	Event	0x1f0003	
+4700	mspaint.exe	0xa30710bbade0	0x2c4	Event	0x1f0003	
+4700	mspaint.exe	0xa30710bbaee0	0x2c8	Event	0x1f0003	
+4700	mspaint.exe	0xa30710bbaf60	0x2cc	Event	0x1f0003	
+4700	mspaint.exe	0xa30710bbafe0	0x2d0	Event	0x1f0003	
+4700	mspaint.exe	0xc60798630a30	0x2d4	Key	0x20019	MACHINE\SOFTWARE\MICROSOFT\WINDOWSRUNTIME
+4700	mspaint.exe	0xc60798631910	0x2d8	Key	0x20019	MACHINE\SOFTWARE\MICROSOFT\WINDOWSRUNTIME\ACTIVATABLECLASSID
+4700	mspaint.exe	0xa3071040de80	0x2dc	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071040cde0	0x2e0	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071040d6a0	0x2e4	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071040cb40	0x2e8	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071040d080	0x2ec	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071040d4e0	0x2f0	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071040ca60	0x2f4	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071040e2e0	0x2f8	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071040d160	0x2fc	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071040d240	0x300	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071040d320	0x304	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071040f9a0	0x308	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071040e580	0x30c	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071040fc40	0x310	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071040e740	0x314	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071040fd20	0x318	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071040e660	0x31c	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071040fe00	0x320	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071040fee0	0x324	EtwRegistration	0x804	
+4700	mspaint.exe	0xa307104100a0	0x328	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071040e9e0	0x32c	EtwRegistration	0x804	
+4700	mspaint.exe	0xa307104106c0	0x330	EtwRegistration	0x804	
+4700	mspaint.exe	0xa307104107a0	0x334	EtwRegistration	0x804	
+4700	mspaint.exe	0xa30710410b20	0x338	EtwRegistration	0x804	
+4700	mspaint.exe	0xa30710410880	0x33c	EtwRegistration	0x804	
+4700	mspaint.exe	0xa30710410a40	0x340	EtwRegistration	0x804	
+4700	mspaint.exe	0xa307104113e0	0x344	EtwRegistration	0x804	
+4700	mspaint.exe	0xa30710410ce0	0x348	EtwRegistration	0x804	
+4700	mspaint.exe	0xa30710411920	0x34c	EtwRegistration	0x804	
+4700	mspaint.exe	0xa30710bbb360	0x350	Event	0x1f0003	
+4700	mspaint.exe	0xa30710bbb060	0x354	Event	0x1f0003	
+4700	mspaint.exe	0xa30710bba3e0	0x358	Event	0x1f0003	
+4700	mspaint.exe	0xa30710bbc060	0x35c	Event	0x1f0003	
+4700	mspaint.exe	0xa30710a30080	0x360	Thread	0x1fffff	Tid 4704 Pid 4700
+4700	mspaint.exe	0xa30710a8fa80	0x364	ALPC Port	0x1f0001	
+4700	mspaint.exe	0xa30710bbae60	0x368	Event	0x1f0003	
+4700	mspaint.exe	0xa3071091ba80	0x36c	ALPC Port	0x1f0001	
+4700	mspaint.exe	0xa30710bbbfe0	0x370	Event	0x1f0003	
+4700	mspaint.exe	0xa307100ee0d0	0x374	ALPC Port	0x1f0001	OLE3DEC04C5E1C0998D986D6EADB2A1
+4700	mspaint.exe	0xa30710bbbbe0	0x378	Event	0x1f0003	
+4700	mspaint.exe	0xa30710bbb4e0	0x37c	Event	0x1f0003	
+4700	mspaint.exe	0xa307108fc6b0	0x380	Timer	0x100002	
+4700	mspaint.exe	0xa30710a2a080	0x384	Thread	0x1fffff	Tid 4720 Pid 4700
+4700	mspaint.exe	0xa30710521980	0x388	ALPC Port	0x1f0001	
+4700	mspaint.exe	0xc60798e24490	0x390	Key	0x20019	MACHINE\SYSTEM\CONTROLSET001\CONTROL\NLS\SORTING\IDS
+4700	mspaint.exe	0xa30710bbb260	0x398	Event	0x1f0003	
+4700	mspaint.exe	0xa30710c03040	0x39c	Thread	0x1fffff	Tid 4728 Pid 4700
+4700	mspaint.exe	0xa3070fdbb440	0x3a0	File	0x100020	\Device\HarddiskVolume3\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e
+4700	mspaint.exe	0xa30710a0e560	0x3a4	Mutant	0x1f0001	WIATRACE_MUTEX
+4700	mspaint.exe	0xa3071030cde0	0x3a8	EtwRegistration	0x804	
+4700	mspaint.exe	0xa307103e4a80	0x3ac	ALPC Port	0x1f0001	
+4700	mspaint.exe	0xa30710bbdfe0	0x3b0	Event	0x1f0003	
+4700	mspaint.exe	0xa30710bf4080	0x3b4	Thread	0x1fffff	Tid 4784 Pid 4700
+4700	mspaint.exe	0xa307103e5a80	0x3b8	ALPC Port	0x1f0001	
+4700	mspaint.exe	0xa30710bbe260	0x3bc	Event	0x1f0003	
+4700	mspaint.exe	0xa30710bf4080	0x3c0	Thread	0x1fffff	Tid 4784 Pid 4700
+4700	mspaint.exe	0xa3070f2cf7e0	0x3c4	File	0x100001	\Device\HarddiskVolume3\Windows\SystemResources\mspaint.exe.mun
+4700	mspaint.exe	0xa30710bbed60	0x3c8	Event	0x1f0003	
+4700	mspaint.exe	0xa30710bbec60	0x3cc	Event	0x1f0003	
+4700	mspaint.exe	0xa3070fc79a00	0x3d0	File	0x100020	\Device\HarddiskVolume3\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.1110_none_60b5254171f9507e
+4700	mspaint.exe	0xa3071030d4e0	0x3d4	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fc7bdf0	0x3d8	File	0x100001	\Device\HarddiskVolume3\Windows\System32\en-GB\UIRibbon.dll.mui
+4700	mspaint.exe	0xa3071030c980	0x3dc	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071030d5c0	0x3e0	EtwRegistration	0x804	
+4700	mspaint.exe	0xa307103b8a80	0x3e4	ALPC Port	0x1f0001	
+4700	mspaint.exe	0xa3071030d320	0x3e8	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071030cec0	0x3ec	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071030df60	0x3f0	EtwRegistration	0x804	
+4700	mspaint.exe	0xa30710bbe3e0	0x3f4	Semaphore	0x1f0003	
+4700	mspaint.exe	0xa30710bbe2e0	0x3f8	Semaphore	0x1f0003	
+4700	mspaint.exe	0xa3070fdbb120	0x3fc	File	0x100001	\Device\HarddiskVolume3\Windows\System32\en-US\KernelBase.dll.mui
+4700	mspaint.exe	0xa3071030d080	0x404	EtwRegistration	0x804	
+4700	mspaint.exe	0xa30710bbece0	0x408	Semaphore	0x100003	
+4700	mspaint.exe	0xa30710bbede0	0x40c	Semaphore	0x100003	
+4700	mspaint.exe	0xa30710bbe1e0	0x410	Event	0x1f0003	
+4700	mspaint.exe	0xa3070fdbb2b0	0x414	File	0x100003	\Device\KsecDD
+4700	mspaint.exe	0xa3071030d400	0x418	EtwRegistration	0x804	
+4700	mspaint.exe	0xc60798e15e00	0x41c	Key	0xf003f	USER\S-1-5-21-4182252777-1766901480-2167484189-1001_CLASSES
+4700	mspaint.exe	0xc6079898d2e0	0x420	Section	0xf0007	
+4700	mspaint.exe	0xa3071030cb40	0x424	EtwRegistration	0x804	
+4700	mspaint.exe	0xc607983c97a0	0x428	Section	0x6	windows_shell_global_counters
+4700	mspaint.exe	0xa3071030e2e0	0x42c	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3070fdb2ac0	0x430	File	0x120089	\Device\DeviceApi\CMApi
+4700	mspaint.exe	0xa3070fc7c5c0	0x434	File	0x120089	\Device\HarddiskVolume3\Windows\Fonts\StaticCache.dat
+4700	mspaint.exe	0xc60798f25850	0x438	Section	0xf0005	
+4700	mspaint.exe	0xc607973141b0	0x43c	Section	0x4	RotHintTable
+4700	mspaint.exe	0xc60798e28ab0	0x440	Key	0x20019	MACHINE\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\EXPLORER\FOLDERDESCRIPTIONS\{F42EE2D3-909F-4907-8871-4C22FC0BF756}\PROPERTYBAG
+4700	mspaint.exe	0xa30710a0f8e0	0x444	Mutant	0x1f0001	SM0:4700:120:WilError_03
+4700	mspaint.exe	0xa30710c26720	0x448	Semaphore	0x1f0003	SM0:4700:120:WilError_03_p0
+4700	mspaint.exe	0xa30710c26e00	0x44c	Semaphore	0x1f0003	SM0:4700:120:WilError_03_p0h
+4700	mspaint.exe	0xa30710bbdbe0	0x450	Event	0x1f0003	
+4700	mspaint.exe	0xc607973134f0	0x454	Section	0x6	windows_shell_global_counters
+4700	mspaint.exe	0xc60799154490	0x458	Key	0x1	USER\S-1-5-21-4182252777-1766901480-2167484189-1001\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\EXPLORER
+4700	mspaint.exe	0xc6079845bd70	0x45c	Key	0x20019	MACHINE\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\EXPLORER\FOLDERDESCRIPTIONS\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}\PROPERTYBAG
+4700	mspaint.exe	0xc60798636260	0x460	Key	0x20019	MACHINE\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\EXPLORER\FOLDERDESCRIPTIONS\{A0C69A99-21C8-4671-8703-7934162FCF1D}\PROPERTYBAG
+4700	mspaint.exe	0xc60798638130	0x464	Key	0x20019	MACHINE\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\EXPLORER\FOLDERDESCRIPTIONS\{0DDD015D-B06C-45D5-8C4C-F59713854639}\PROPERTYBAG
+4700	mspaint.exe	0xa3071030e120	0x468	EtwRegistration	0x804	
+4700	mspaint.exe	0xc6079916a660	0x46c	Key	0x20019	MACHINE\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\EXPLORER\FOLDERDESCRIPTIONS\{35286A68-3C57-41A1-BBB1-0EAE73D76C95}\PROPERTYBAG
+4700	mspaint.exe	0xc6079916c640	0x470	Key	0x20019	MACHINE\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\EXPLORER\FOLDERDESCRIPTIONS\{7D83EE9B-2244-4E70-B1F5-5393042AF1E4}\PROPERTYBAG
+4700	mspaint.exe	0xc6079916d850	0x474	Key	0x20019	MACHINE\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\EXPLORER\FOLDERDESCRIPTIONS\{374DE290-123F-4565-9164-39C4925E467B}\PROPERTYBAG
+4700	mspaint.exe	0xc6079916d1f0	0x478	Key	0x10	MACHINE\SOFTWARE\CLASSES\CLSID\{088E3905-0323-4B02-9826-5D99428E115F}\INSTANCE
+4700	mspaint.exe	0xa30710bbe160	0x47c	Event	0x1f0003	
+4700	mspaint.exe	0xa30710bbea60	0x484	Event	0x1f0003	
+4700	mspaint.exe	0xc6079916d300	0x488	Key	0x20019	MACHINE\SOFTWARE\MICROSOFT\WINDOWSRUNTIME\SERVER
+4700	mspaint.exe	0xa30710bbeae0	0x48c	Event	0x1f0003	
+4700	mspaint.exe	0xa30710bf3080	0x490	Thread	0x1fffff	Tid 4796 Pid 4700
+4700	mspaint.exe	0xa30710bbeb62	0x494	PsSiloContextPaged	0x1f0003	
+4700	mspaint.exe	0xa30710bf3080	0x498	Thread	0x1fffff	Tid 4796 Pid 4700
+4700	mspaint.exe	0xc6079916d630	0x49c	Key	0x20019	USER\S-1-5-21-4182252777-1766901480-2167484189-1001\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\EXPLORER\FILEEXTS
+4700	mspaint.exe	0xa307105deb60	0x4a0	ALPC Port	0x1f0001	
+4700	mspaint.exe	0xa30710bbf0e2	0x4a4	Profile	0x1f0003	
+4700	mspaint.exe	0xa3071030db00	0x4a8	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071030e740	0x4ac	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071030dbe0	0x4b4	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071030d940	0x4b8	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071030cc20	0x4bc	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071030da20	0x4c0	EtwRegistration	0x804	
+4700	mspaint.exe	0xa307100ca650	0x4c4	ALPC Port	0x1f0001	
+4700	mspaint.exe	0xc607986bd364	0x4c8	DxgkSharedKeyedMutexObject	0x4	
+4700	mspaint.exe	0xa3070fdbba80	0x4cc	File	0x100001	\Device\HarddiskVolume3\Windows\System32\en-GB\propsys.dll.mui
+4700	mspaint.exe	0xc607986bd4e4	0x4d0	DxgkSharedResource	0x4	
+4700	mspaint.exe	0xc607986bd2a4	0x4d4	DxgkSharedSyncObject	0x4	
+4700	mspaint.exe	0xc607986bd2a4	0x4d8	DxgkSharedSyncObject	0x4	
+4700	mspaint.exe	0xa30710bbfe60	0x4dc	Semaphore	0x100003	
+4700	mspaint.exe	0xa30710bc0160	0x4e0	Semaphore	0x100003	
+4700	mspaint.exe	0xa3071090ad20	0x4e4	ALPC Port	0x1f0001	
+4700	mspaint.exe	0xa30710bbf2e0	0x4e8	Semaphore	0x100003	
+4700	mspaint.exe	0xa30710bc00e0	0x4ec	Semaphore	0x100003	
+4700	mspaint.exe	0xa30710bbf560	0x4f0	Semaphore	0x100003	
+4700	mspaint.exe	0xa30710bbf760	0x4f4	Semaphore	0x100003	
+4700	mspaint.exe	0xa30710bbf7e0	0x4f8	Semaphore	0x100003	
+4700	mspaint.exe	0xa30710bbf360	0x4fc	Semaphore	0x100003	
+4700	mspaint.exe	0xa3071030f1c0	0x500	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071030e660	0x504	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071030fc40	0x508	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071030fe00	0x50c	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071030eba0	0x510	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071030e820	0x514	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071030ed60	0x518	EtwRegistration	0x804	
+4700	mspaint.exe	0xa307103100a0	0x51c	EtwRegistration	0x804	
+4700	mspaint.exe	0xa30710bbf1e0	0x520	Event	0x1f0003	
+4700	mspaint.exe	0xa3070ff65850	0x524	Timer	0x1f0003	
+4700	mspaint.exe	0xa3070ff65a00	0x528	Timer	0x1f0003	
+4700	mspaint.exe	0xa30710bbf960	0x52c	Event	0x1f0003	
+4700	mspaint.exe	0xa3071098da40	0x530	WaitCompletionPacket	0x1	
+4700	mspaint.exe	0xa30710bbfbe0	0x534	Event	0x1f0003	
+4700	mspaint.exe	0xa3071098e0c0	0x538	WaitCompletionPacket	0x1	
+4700	mspaint.exe	0xa3071098eb50	0x53c	WaitCompletionPacket	0x1	
+4700	mspaint.exe	0xa3071098d970	0x540	WaitCompletionPacket	0x1	
+4700	mspaint.exe	0xa30710a30080	0x544	Thread	0x1fffff	Tid 4704 Pid 4700
+4700	mspaint.exe	0xa3071098ee90	0x548	WaitCompletionPacket	0x1	
+4700	mspaint.exe	0xa30710a0f740	0x54c	IoCompletionReserve	0xf0003	
+4700	mspaint.exe	0xa307101f8cf0	0x554	ALPC Port	0x1f0001	[CoreUI]-PID(4700)-TID(4704) c20f542d-fc77-4704-b867-1ded79397b32
+4700	mspaint.exe	0xa3071098ec20	0x558	WaitCompletionPacket	0x1	
+4700	mspaint.exe	0xa3071090aac0	0x55c	ALPC Port	0x1f0001	
+4700	mspaint.exe	0xa3071098e5a0	0x560	WaitCompletionPacket	0x1	
+4700	mspaint.exe	0xa3071030fee0	0x564	EtwRegistration	0x804	
+4700	mspaint.exe	0xa30710beaac0	0x570	ALPC Port	0x1f0001	
+4700	mspaint.exe	0xa3070e94b2f0	0x574	Mutant	0x1f0001	SessionImmersiveColorMutex
+4700	mspaint.exe	0xa3071030ee40	0x57c	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071030f0e0	0x580	EtwRegistration	0x804	
+4700	mspaint.exe	0xa3071030f2a0	0x584	EtwRegistration	0x804	
+4700	mspaint.exe	0xa30710d81a30	0x588	Mutant	0x1f0001	
